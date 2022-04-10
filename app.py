@@ -1,4 +1,7 @@
 import dash
+# For Dash 2.0:
+# from dash import html, dcc
+# For dash < 2.0
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
@@ -870,4 +873,5 @@ def update_graphs(scenario_value, supply_value, a1_value, b1_value, c1_value,
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+	port = int(os.environ.get("PORT"))
+	app.run_server(debug=False, host='0.0.0.0', port=port)

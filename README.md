@@ -19,7 +19,7 @@ In the Settings section of the app, parameters of the buy and sell curves can be
 Below the Settings section, the Simulation section contains graphs of the market and the agent as a function of time.  When the curve parameters are changed, press the Simulate button to run the simulation and update the market and agent graphs.  
 
 ## Installation
-```git clone ```
+```git clone https://github.com/seaspaniel/bonding-curve-sim.git```
 
 ## Running the app
 ```python app1.py```

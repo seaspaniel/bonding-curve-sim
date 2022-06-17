@@ -1,7 +1,9 @@
 __pycache__/
+.DS_Store/
 env
 cache/
 .vscode/
+.gitignore
 *.pyc
 gunicorn.conf.py
 heroku_requirements.txt
